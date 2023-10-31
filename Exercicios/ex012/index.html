@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos Hospedado Localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    
+    <video width="560" poster="imagens/limoes-capa.png" controls autoplay loop>
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <source src="midia/meu-video.webm" type="video/webm">
+    </video>
+
+    <h1>Inserindo Vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ldl_CvMGmEA?si=bDcY1CLb0Q39EAL2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo Vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/197093965?color=ff9933&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+    <!--Inserir videos na verdade é bem facil.
+
+    temos a propria tag <video> que é ultilizada para mostra videos em nosso servidor
+        onde temos o windt= que pelo que entedi é pra delimitar o tamanho do video
+        o poster é a imagem que vai servir de thumb para video
+        dentro da tag <video> vem os source 
+            com scr= padrao pra falar onde encotrar o video
+            e o type= para inforamar o tipo do video sendo reproduzido
+            a outros comandos a serem estudados como 
+                controls que serve para dar controle sobre a midia para o cliente
+                autoplay que carrega o video automaticamente
+                loop para fazer que o video repita sempre quando acabar
+                e acredito que muito mais 
+
+        
+        Ja no youtube ou vimeo é ridiculo de facil
+        compartilhar -> incorporar -> copiar -> colarkkkk
+        basta fazer isso que o video ja vem-->
+
+</body>
+</html>

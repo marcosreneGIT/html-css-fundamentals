@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+
+    <!--Imagens são faceis em certo ponto
+
+        ao inves de ultilizar a simples tag <img> agora usamos <picture>
+
+            e dentro dela vai a tag <img> como padrao antigamente
+
+                com scr= pra indicar o lugar da imagem e 
+                alt= que seria meio que a descriçao
+
+            so que agora temos tipos de condicionais, que vemos a tag <source> 
+
+                nessa tag temos media= pra passar to mamanho maximo ou minino que a imagem sera mostrada
+                lembrando que a ordem aqui é importante, sempre da menor para maior. Pois caso uma condiçao for comprida a outra ja é ignorada, entao cuidado
+
+                temos tambem srcset= que serve como um scr= padrao, mas lembrando em indicar a foto de tamanho compativel
+
+                e por fim temos o type= que indica o tipo da imagem, exemplo: imagem/pdf...
+
+
+        Audios tem uma semelhaça com a estrutura das imagens
+
+            aqui quem manda é a tag <audio>, e com ela temos o preload= que recomendo a leitura do capitulo 11 para enteder melhor
+            temos autoplay, controls e loop ambos para gerar um ambiente de interaçao ao usuario ja descrito por mim no ex012
+
+                dentro dessa tag temos tambem a tag <source> so que aqui de uma maneira diria eu ate mais simples
+
+                    dentro dessa tag temos apenas scr= indica o endereço da midia no caso o audio
+                    e o type para informar o tipo dessa midia
+
+                    lembrando que é importante ter mais de um tipo pois alguns navegaroes nao suportam tal tipo de arquivo
+                    com varias opçoes diminue esse problema 
+                    mas como visto no exercio se nenhuma das opçoes nao forem suportadas temos a opçao de deixar um link para
+                    download como visto nos capitulos anteriores
+        -->
+</body>
+</html>
