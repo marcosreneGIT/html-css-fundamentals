@@ -1,5 +1,5 @@
 # HTML-CSS
- Meus exercícios e desafios do curso de HTML5 e CSS3
+ Meus exercícios e desafios do curso de HTML5 e CSS3.
  
  Aplicando a noção básica sobre Front End que eu estava buscando.
  
