@@ -10,6 +10,7 @@ Este repositório contém os exercícios e desafios realizados durante o curso b
 
 ## **Sobre o Projeto**  
 - **Link**:  <a  href="https://marcosrenegit.github.io/html-css-fundamentals/Desafios/d010/revisao" target="_blank">  Site Android</a>
+
   - **HTML5**: Estruturação da página com cabeçalho, corpo e rodapé. Inclusão de seções e artigos relacionados ao Android.
   - **CSS3**: Aplicação de estilos básicos para tornar a página visualmente agradável e interativa, utilizando cores, fontes e layout responsivo.
   - **Responsividade**: Garantir que o site funcione bem em diferentes tamanhos de tela.
