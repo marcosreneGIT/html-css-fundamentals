@@ -3,4 +3,4 @@
  
  Aplicando a noção básica sobre Front End que eu estava buscando.
  
- <p>Mini projeto:<a href="https://marcosrenegit.github.io/html-css/Desafios/d010/revisao" target="_blank"> Site sobre o Android</a></p>
+ <p>Mini projeto:<a href="https://marcosrenegit.github.io/html-css-fundamentals/Desafios/d010/revisao" target="_blank"> Site sobre o Android</a></p>
